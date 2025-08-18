@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoliosite</title>
+    <link rel="stylesheet" href="portfolio.CSS">
+</head>
+<body>
+   <div class="container">
+    <ul class="nav">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Project">Project</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+    <div id="Home" class="home-container">
+      <h1>Welcome to My Portfolio.</h1>
+      <p>
+        I am a passionate <b>Front-End Web Developer</b> with skills in <b>HTML, CSS,
+        and JavaScript</b>. This portfolio represents my  learning journey, creativity,
+         and projects in web design. Explore my <b>skills, education, and projects</b>
+         to see how I create responsive and user-friendly websites.
+        </p>
+    <div class="btn-continer">
+        <button><a href="#Project"> my project</a></button>
+        <button><a href="#Contact">contact me</a></button>
+    </div>
+</div>
+
+   </div>
+   <section id="About"  class="section-A">
+    <div class="info-section">
+        
+        <!-- Left side about -->
+        <div class="about">
+            <h1>About Me</h1>
+            <p>
+                I’m a Software Engineering student at <strong>Sindh Agriculture University Tandojam</strong> with a
+                strong interest in front-end development. I have hands-on experience with HTML, CSS, 
+                and basic JavaScript, and I enjoy building responsive, user-friendly websites. Alongside
+                my technical skills, I bring creativity, problem-solving abilities, and teamwork  to every
+                project. My goal is to gain practical experience through  internships and   grow into a
+               skilled, industry-ready developer.</p>
+            
+            <!-- skill + education flex -->
+            <div class="skill-education">
+                <div class="skill">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+ 
+                <div class="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li><strong>BS Software Engineering (In Progress)</strong>
+                            – Sindh Agriculture University, 2022 – Present</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- Right side image -->
+        <div class="image">
+            <img src="images/pexels-mikhail-nilov-6893933.jpg" alt="image">
+        </div>
+    </div>
+ </section>
+ 
+ <section id="Project"  class="section-B">
+    <h1>My Project</h1>
+    <div class="project-container">
+            <h2> Calculator </h2>
+            <div class="project-detail-1">
+            <img src="images/Calculator.png" alt="calculator.png">
+            <p>
+                A simple, responsive calculator built with clean UI. It handles basic 
+              operations (+, -, ×, ÷, %) and includes AC for full reset, DEL for step-back 
+              edits, and = for instant results. Suitable for quick daily calculations and
+               as a beginner-friendly JS project.
+               <br>
+                <strong>Technologies used:</strong> Html , CSS , JavaScript
+
+               <a href="https://github.com/manahil-sarwar/calculator" target="_blank">GitHub</a>
+               <a href="https://manahil-sarwar.github.io/calculator/calculator.html" target="_blank">Live Demo</a>
+            </p>
+            </div>
+    </div>
+    <hr>
+          <div class="project-cart">
+            <h2> Portfolio site</h2>
+            <div class="project-detail-2">
+            <img src="images/portfolio.png" alt="portfolio.png">
+            <p>
+                My personal portfolio showcasing my skills, projects, and resume. Designed with 
+                a responsive layout using HTML, CSS (Flexbox, Grid), and JavaScript to ensure it 
+                looks good on all devices. This project reflects my ability to create clean and 
+                user-friendly UI/UX.
+                <br>
+             <strong>Technologies used:</strong> Html , CSS , JavaScript
+
+             <a href="https://github.com/manahil-sarwar/portfolio" target="blank">GitHub </a>
+             <a href="" target="">Live Demo </a>
+          </p>
+            </div>
+    </div>
+ </section>
+ <section id="Contact" class="section-C">
+    <h1> Contact me</h1>
+    <div class="contact">
+        <p>"I’m always open to new ideas and exciting opportunities. 
+            If you have a question, want to discuss a project, feel free
+            to get in touch. Your message will always be a pleasure 
+            to receive!"
+
+           <img src="images/Email-icon.png">  <b>Email:</b><a href="manahilsarwar02@gmail.com"> manahilsarwar02@gmail.com</a>
+          
+            <img src="images/Location.png">  <b>location:</b> Mehrabpur,Pakistan.
+
+           <img src="images/Github-icon.png"> <a href="https://github.com/manahil-sarwar" target="_blank">GitHub</a>
+            
+            <img src="images/linkend.png"> <a href="https://www.linkedin.com/in/manahil-sarwar/" target="_blank">LinkedIn</a>
+          </p>
+          <div class="contact-form">
+            <form id="contact-form">
+        <div>
+            <label for="username">Name<span class="req"> *</span> </label>
+            <input id="username"name="name"type="text"placeholder="enter your first name">
+        </div>
+        <div>
+            <label for="email">E-mail<span class="req"> *</span> </label>
+            <input id="email"name="email"type="email"placeholder="example@email.com" >
+        </div>
+        <div>
+            <label for="phone">Contact Number<span class="req"> *</span></label>
+            <input id="phone"name="phone"type="tel"placeholder="03xx-xxxxxxx">
+        </div>
+        <div>
+            <label for="message">Message<span class="req"> *</span> </label>
+            <textarea id="message" name="message" rows="4" placeholder="enter your message"></textarea>
+
+         </div>
+         <div class="form-btn">
+             <button type="submit">submit</button>
+        </div>
+    </form>
+    </div>
+    </div>
+    <script src="portfoliosite.js"></script>
+ </section>
+</body>
+</html>
