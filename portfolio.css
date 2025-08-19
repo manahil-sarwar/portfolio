@@ -90,7 +90,7 @@ button:nth-child(1){
  margin-left:2rem;
 }
 button:nth-child(1):hover{
-    background: black;
+    background: rgb(34, 33, 33);
     color:#00796B;
 }
 button:nth-child(2){
@@ -418,7 +418,6 @@ button:nth-child(2):hover{
 span{
     color: brown;
     font-size: 1.5rem;
-    padding-top: .5rem;
 }
 .form-btn button{
     width: 90%; 
